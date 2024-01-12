@@ -1,0 +1,68 @@
+name: e_menu_app
+description: An E-menu app for restaurants
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2 # Cupertino icons
+  dio: ^5.2.1+1 # HTTP client for Dart
+  either_dart: ^1.0.0 # Either type for Dart
+  flutter_secure_storage: ^8.0.0 # Secure storage for passwords, PINs, or any sensitive data
+  flutter_map: ^5.0.0 # Map widget
+  freezed_annotation: ^2.2.0 # Code generation for immutable classes
+  get: ^4.6.5 # State management, navigation, and route management
+  geocoding: ^2.1.1 # Convert between geographic coordinates and addresses
+  geolocator: ^10.1.0 # GPS location
+  google_fonts: ^5.1.0 # Google fonts
+  intl: ^0.18.1 # Internationalization and localization
+  json_annotation: ^4.8.1 # JSON serialization/deserialization
+  latlong2: ^0.9.0 # Geolocation
+  logger: ^2.0.2 # Logging
+  permission_handler: ^11.0.0 # Permission plugin for Camera
+  responsive_framework: ^1.1.1 # Responsive UI
+  flutter_rating_bar: ^4.0.1 # Rating bar
+  shared_preferences: ^2.1.2 # Menyimpan data secara lokal
+  url_launcher: ^6.1.14 # URL launcher
+  qrscan: ^0.3.3 # QR code scanner
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.5
+  flutter_lints: ^2.0.0
+  freezed: ^2.3.5
+  json_serializable: ^6.7.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/images/
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Black.ttf
+          weight: 900
+        - asset: assets/fonts/Inter-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Inter-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Inter-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Inter-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Inter-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Inter-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Inter-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Inter-Thin.ttf
+          weight: 100
